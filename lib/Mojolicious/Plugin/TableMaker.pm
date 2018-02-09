@@ -4,6 +4,8 @@ package Mojolicious::Plugin::TableMaker;
 
 use Mojo::Base 'Mojolicious::Plugin';
 
+use Mojo::HTML::Table;
+
 sub register {
   my ($self, $app, $conf) = @_;
 
